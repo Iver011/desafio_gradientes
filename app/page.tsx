@@ -72,7 +72,7 @@ export default function Page() {
     // Si el valor no existe o no es un número, devolvemos un texto vacío o por defecto
     if (value === undefined || typeof value !== 'number') return '';
     
-    // Aquí ya es seguro usarlo como número
+    // Aquí ya es seguro usarlo como números
     return `$${value.toFixed(2)}`; 
   }} 
 /><Legend />
